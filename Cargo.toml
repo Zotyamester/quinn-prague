@@ -2,6 +2,11 @@
 name = "quinn-prague"
 version = "0.1.0"
 edition = "2024"
+build = "build.rs"
 
 [dependencies]
 quinn-proto = { git = "https://github.com/Zotyamester/quinn.git", branch = "l4s" }
+
+[build-dependencies]
+cc = "1.2"
+bindgen = "0.72"
