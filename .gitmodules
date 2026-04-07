@@ -1,0 +1,3 @@
+[submodule "udp_prague"]
+	path = udp_prague
+	url = https://github.com/L4STeam/udp_prague.git
