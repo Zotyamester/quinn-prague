@@ -1,0 +1,7 @@
+[package]
+name = "quinn-prague"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+quinn-proto = { git = "https://github.com/Zotyamester/quinn.git", branch = "l4s" }
